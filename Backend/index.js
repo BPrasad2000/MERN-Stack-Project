@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import morgan from "morgan";
+import router from "./Routes/authRoute.js";
 
 
 //rest object
@@ -20,6 +21,7 @@ connectDB();
 app.use(express.json());
 app.use(morgan("dev"));
 
+app.use('/app',router); 
 
  //port
  const PORT=process.env.PORT || 8080;
