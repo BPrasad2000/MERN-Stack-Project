@@ -3,7 +3,7 @@ import Layout from '../Layout'
 
 function Policy() {
   return (
-    <Layout>
+    <Layout title={"Policy"}>
       <h1>Policy</h1>
     </Layout>
 

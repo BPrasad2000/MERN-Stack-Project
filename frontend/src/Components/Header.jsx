@@ -38,7 +38,7 @@ const [open, setOpen] = useState(false);
         <div className='md:flex bg-white items-center justify-between py-4 md:px-10 px-7 '>
             <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
                 <span className='text-3xl text-indigo-600 mr-1 py-1'>
-                <i class="fa-solid fa-cloud"></i>
+                <i className="fa-solid fa-cloud"></i>
                 </span>
                 MyWebsite
             </div>
